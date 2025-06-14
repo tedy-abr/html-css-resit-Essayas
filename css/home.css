@@ -1,0 +1,174 @@
+/* Hero Section */
+.hero {
+  background-image: url("../images/hero-home.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 620px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 0 0 11%;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: "Roboto Slab", sans-serif;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 18px;
+  width: 600px;
+  height: 233px;
+}
+
+.hero-text h1 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.hero-text p {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.hero-content1 {
+  background-color: #e7e996;
+  color: black;
+  width: 576px;
+  height: 496px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: "Raleway", sans-serif;
+}
+
+.hero-content1 h2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.hero-btn {
+  display: inline-flex;
+  background: white;
+  color: black;
+  font-weight: 700;
+  font-size: 36px;
+  text-decoration: none;
+  margin-top: 1rem;
+  height: 105px;
+  width: 428px;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Mission Section */
+.mission {
+  background-color: #efefef;
+  padding: 5% 0;
+  color: #25381c;
+  height: 528px;
+  font-family: "Raleway", sans-serif;
+}
+
+.mission h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+.mission p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.mission-status {
+  color: black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.status-item img {
+  width: 56px;
+  height: 56px;
+}
+
+.status-item h3 {
+  font-size: 34px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.status-item p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Join plant trees */
+.join {
+  background-color: #efefef;
+  margin-top: 74px;
+  height: 310px;
+  font-family: "Raleway", sans-serif;
+  color: #25381c;
+}
+
+.join-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.join-container h2 {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.join-container p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.join-container img {
+  width: 504px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.join-btn {
+  display: inline-flex;
+  background: #e7e996;
+  color: black;
+  font-weight: 700;
+  font-size: 30px;
+  text-decoration: none;
+  margin-top: 1rem;
+  height: 80px;
+  width: 280px;
+  align-items: center;
+  justify-content: center;
+}

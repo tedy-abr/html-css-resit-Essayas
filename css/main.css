@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: relative;
+  background-color: #666666;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+header .max-width {
+  position: relative;
+}
+
+.margin-left {
+  margin-left: 5%;
+}
+
+/*
+.max-width {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+  */
+
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 30px;
+  position: relative;
+  z-index: 1;
+  height: 112px;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 100px;
+  height: 124px;
+  background-color: #111;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.logo img {
+  height: 80%;
+  display: block;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  width: 170px;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+nav a.active::before,
+nav a:hover::before {
+  content: "";
+  position: absolute;
+
+  left: 0;
+  width: 100%;
+  height: 124px;
+  background-color: #e7e996;
+  z-index: -1;
+}
+
+nav a.active,
+nav a:hover {
+  color: black;
+}
+
+footer {
+  margin-top: 74px;
+  background-color: #e7e996;
+  height: 134px;
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-left img {
+  width: 150px;
+}
+
+.socials a {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+  font-size: 40px;
+}
+
+.newsletter {
+  margin-right: 60px;
+}
+
+.newsletter label {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.newsletter input {
+  width: 410px;
+  height: 54px;
+  background: transparent;
+  border: 1px solid #666666;
+}
+
+.signup-btn {
+  width: 200px;
+  height: 54px;
+  background: transparent;
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+  cursor: pointer;
+  border: 1px solid #666666;
+}
