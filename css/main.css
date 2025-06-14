@@ -3,6 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: "Raleway", sans-serif;
+  color: #25381c;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto Slab", sans-serif;
+}
 
 header {
   position: relative;
@@ -93,7 +103,6 @@ footer {
   height: 134px;
   display: flex;
   align-items: center;
-  font-family: "Raleway", sans-serif;
 }
 
 .footer-container {

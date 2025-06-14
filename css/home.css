@@ -21,11 +21,11 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  font-family: "Roboto Slab", sans-serif;
   background-color: rgba(0, 0, 0, 0.4);
   padding: 18px;
   width: 600px;
   height: 233px;
+  font-family: "Roboto Slab", sans-serif;
 }
 
 .hero-text h1 {
@@ -47,13 +47,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  font-family: "Raleway", sans-serif;
 }
 
 .hero-content1 h2 {
   font-size: 36px;
   font-weight: 700;
   text-align: center;
+  font-family: "Raleway", sans-serif;
 }
 
 .hero-btn {
@@ -74,16 +74,13 @@
 .mission {
   background-color: #efefef;
   padding: 5% 0;
-  color: #25381c;
   height: 528px;
-  font-family: "Raleway", sans-serif;
 }
 
 .mission h2 {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 24px;
-  font-family: "Roboto Slab", sans-serif;
 }
 
 .mission p {
@@ -117,6 +114,7 @@
   font-size: 34px;
   font-weight: 500;
   margin: 0;
+  font-family: "Raleway", sans-serif;
 }
 
 .status-item p {
@@ -130,8 +128,6 @@
   background-color: #efefef;
   margin-top: 74px;
   height: 310px;
-  font-family: "Raleway", sans-serif;
-  color: #25381c;
 }
 
 .join-container {
@@ -141,7 +137,6 @@
   height: 100%;
 }
 .join-container h2 {
-  font-family: "Roboto Slab", sans-serif;
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 24px;
