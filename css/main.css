@@ -49,6 +49,12 @@ header .max-width {
   z-index: 2;
 }
 
+.logo a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
 .logo img {
   height: 80%;
   display: block;
