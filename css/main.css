@@ -13,6 +13,9 @@ h2,
 h3 {
   font-family: "Roboto Slab", sans-serif;
 }
+.margin-left {
+  margin-left: 5%;
+}
 
 header {
   position: relative;
@@ -84,6 +87,10 @@ nav a:hover::before {
 nav a.active,
 nav a:hover {
   color: black;
+}
+.hamburger-icon,
+.menu-toggle {
+  display: none;
 }
 
 footer {
@@ -205,6 +212,103 @@ footer {
 
 /* Responsive mobile view */
 @media (max-width: 767px) {
+  header .max-width {
+    height: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: space-between;
+  }
+
+  .logo {
+    left: 15px;
+    height: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 5px 10px;
+  }
+  .logo img {
+    height: 60%;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  .hamburger-icon {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    z-index: 100;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    line-height: 1;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+
+  .nav-container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #666666;
+    z-index: 99;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    padding-top: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .nav-container nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .nav-container nav a {
+    width: auto;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    justify-content: center;
+    transition: none;
+  }
+
+  .nav-container nav a:last-child {
+    border-bottom: none;
+  }
+
+  .nav-container nav a.active,
+  .nav-container nav a:hover {
+    color: #e7e996;
+    background-color: transparent;
+  }
+
+  .nav-container nav a.active::before,
+  .nav-container nav a:hover::before {
+    content: none;
+  }
+
+  .menu-toggle:checked ~ .nav-container {
+    transform: translateX(0);
+  }
+
+  .menu-toggle:checked ~ .hamburger-icon .fa-bars:before {
+    content: "\f00d";
+  }
   footer {
     flex-direction: column;
     padding: 20px;
