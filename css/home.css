@@ -239,4 +239,115 @@
 
 /* Responsive mobile view */
 @media (max-width: 767px) {
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .hero-content {
+    flex-direction: column;
+    padding: 0;
+    gap: 30px;
+  }
+
+  .hero-text,
+  .hero-content1 {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .hero-text h1,
+  .hero-text p {
+    font-size: 22px;
+  }
+
+  .hero-content1 h2 {
+    font-size: 24px;
+  }
+
+  .hero-btn {
+    width: 100%;
+    font-size: 20px;
+    height: 60px;
+  }
+
+  .mission {
+    height: auto;
+  }
+
+  .mission h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .mission p {
+    font-size: 18px;
+    text-align: left;
+  }
+
+  .mission-status {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  .status-item {
+    justify-content: flex-start;
+  }
+
+  .status-item img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .status-item h3 {
+    font-size: 24px;
+  }
+
+  .status-item p {
+    font-size: 16px;
+  }
+
+  .join {
+    margin-top: 40px;
+    height: auto;
+  }
+
+  .join-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .join-left {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .join-content h2 {
+    font-size: 22px;
+  }
+
+  .join-content p {
+    font-size: 18px;
+  }
+
+  .join-btn {
+    width: 100%;
+    font-size: 18px;
+    height: 60px;
+  }
+
+  .join-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .margin-left {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
