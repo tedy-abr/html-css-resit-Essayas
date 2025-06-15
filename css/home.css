@@ -1,3 +1,7 @@
+.margin-left {
+  margin-left: 5%;
+}
+
 /* Hero Section */
 .hero {
   background-image: url("../images/hero-home.jpg");
@@ -136,6 +140,11 @@
   align-items: center;
   height: 100%;
 }
+.join-left {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
 .join-container h2 {
   font-size: 28px;
   font-weight: 700;
@@ -166,4 +175,68 @@
   width: 280px;
   align-items: center;
   justify-content: center;
+}
+
+/* Responsive tablet view */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero {
+    height: 500px;
+  }
+  .hero-content {
+    padding: 0 0 0 5%;
+    gap: 50px;
+  }
+  .hero-text {
+    width: 50%;
+    height: 170px;
+    padding: 12px;
+  }
+  .hero-content1 {
+    width: 50%;
+    height: 300px;
+    padding: 20px;
+  }
+  .hero-content1 h2 {
+    font-size: 30px;
+  }
+  .hero-btn {
+    width: 300px;
+    height: 80px;
+    font-size: 26px;
+  }
+  .mission {
+    height: auto;
+  }
+  .margin-left {
+    margin-left: 3%;
+  }
+  .join {
+    height: auto;
+  }
+  .join-container {
+    gap: 20px;
+    align-items: stretch;
+    overflow: hidden;
+  }
+  .join-content {
+    padding: 5% 0;
+  }
+  .join-left {
+    gap: 10px;
+  }
+
+  .join-btn {
+    font-size: 26px;
+    min-width: 150px;
+    height: 70px;
+  }
+
+  .join-container img {
+    width: 380px;
+    height: auto;
+  }
+}
+
+/* Responsive mobile view */
+@media (max-width: 767px) {
 }
